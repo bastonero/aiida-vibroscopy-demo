@@ -23,4 +23,4 @@ repos:
       exclude: ^\.ipynb_checkpoints/.*$
       additional_dependencies:
         - "nbconvert"
-      entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
+      entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=False --inplace
