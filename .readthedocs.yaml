@@ -12,16 +12,11 @@ build:
 
 conda:
   environment: environment.yml
-  jobs:
-    post_build:
-      - pip install aiida-vibroscopy
 
 python:
   install:
-      - method: pip
-        path: .
-        extra_requirements:
-          - docs
+    - method: pip
+      path: aiida-vibroscopy
 
 sphinx:
   configuration: tutorial/conf.py
