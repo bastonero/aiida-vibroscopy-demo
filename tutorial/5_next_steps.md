@@ -25,6 +25,6 @@ and allows you to publish your research in a citable and reproducible manner.
 :::{subfigure} 2
 :gap: 1em
 :layout-sm: 1
-![materials cloud archive](_static/aiida/materials-cloud-logo.png){align=center}
-![materials cloud circle](_static/aiida/materials-cloud-circle.png){align=center}
+![materials cloud archive](_static/materials-cloud-logo.png){align=center}
+![materials cloud circle](_static/materials-cloud-circle.png){align=center}
 :::
