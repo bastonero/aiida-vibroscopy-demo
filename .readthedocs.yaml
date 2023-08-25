@@ -12,6 +12,7 @@ build:
   jobs:
     post_build:
       - pip install aiida-vibroscopy[docs]
+      - pip install myst-nb@git+https://github.com/executablebooks/MyST-NB.git
 
 conda:
   environment: environment.yml
