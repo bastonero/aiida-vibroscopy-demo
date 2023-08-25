@@ -9,14 +9,12 @@ build:
   os: ubuntu-20.04
   tools:
     python: mambaforge-4.10
+  jobs:
+    post_build:
+      - pip install aiida-vibroscopy
 
 conda:
   environment: environment.yml
-
-python:
-  install:
-    - method: pip
-      path: aiida-vibroscopy
 
 sphinx:
   configuration: tutorial/conf.py

@@ -5,6 +5,7 @@ dependencies:
   - python=3.9
   - pip
   - aiida-core~=2.3.0
+  - qe=7.2
   - xmltodict
   - jupyterlab=3
   - jupyterlab-myst
