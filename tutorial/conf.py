@@ -18,20 +18,18 @@ extensions = [
     "myst_nb",
     "sphinx_design",
     "sphinx_subfigure",
-    "sphinx.ext.autodoc",
     "sphinx.ext.mathjax",
     "sphinx.ext.intersphinx",
     "sphinx.ext.viewcode",
     "sphinx_copybutton",
     "sphinx_togglebutton",
     "aiida.sphinxext",
-    "autoapi.extension",
 ]
 
 myst_enable_extensions = [
     "colon_fence",
     "deflist",
-    "attrs_image",
+    "attrs_inline",
     "amsmath",
     "substitution",
     "dollarmath",
@@ -43,9 +41,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**.ipynb_checkpoints"]
 nitpicky = True
 
 html_theme = "sphinx_book_theme"
-html_logo = "_static/logo-light.svg"
+html_logo = "_static/logo.png"
 html_title = "Demonstration"  # shown below logo
-html_favicon = "_static/favicon-32x32.png"
+# html_favicon = "_static/favicon-32x32.png"
 
 myst_substitutions = {
     "hubbard_structure": "{py:class}`~aiida_quantumespresso.data.hubbard_structure.HubbardStructureData`",
@@ -68,7 +66,7 @@ html_theme_options = {
         # "colab_url": "https://colab.research.google.com/",
     },
     # "announcement": "This tutorial is in development!",
-    "extra_navbar": "",
+    # "extra_navbar": "",
 }
 
 ## myst_nb default settings
