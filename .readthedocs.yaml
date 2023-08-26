@@ -11,12 +11,12 @@ build:
     python: mambaforge-4.10
   commands:
       - pip install aiida-vibroscopy[docs]
-      - git clone https://github.com/executablebooks/MyST-NB.git mystnb
-      - pip install ./mystnb
+      - pip install git+https://github.com/executablebooks/MyST-NB.git
+      - sphinx-build -nW --keep-going -b html tutorial _readthedocs/html
 
 conda:
   environment: environment.yml
 
 sphinx:
   configuration: tutorial/conf.py
-  # fail_on_warning: true
+  fail_on_warning: true
