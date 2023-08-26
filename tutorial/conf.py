@@ -46,12 +46,12 @@ html_title = "Demonstration"  # shown below logo
 # html_favicon = "_static/favicon-32x32.png"
 
 myst_substitutions = {
-    "hubbard_structure": "{py:class}`~aiida_quantumespresso.data.hubbard_structure.HubbardStructureData`",
-    "phonopy_data": "{py:class}`~aiida_phonopy.data.phonopy.PhonopyData`",
-    "preprocess_data": "{py:class}`~aiida_phonopy.data.preprocess.PreProcessData`",
-    "vibrational_data": "{py:class}`~aiida_vibroscopy.data.vibro_lr.VibrationalData`",
-    "pwbase": "{py:class}`~aiida_quantumespresso.workflows.pw.base.PwBaseWorkChain`",
-    "dielwc": "{py:class}`~aiida_vibroscopy.workflows.dielectric.base.DielectricWorkChain`",
+    "hubbard_structure": "`HubbardStructureData`",
+    "phonopy_data": "`PhonopyData`",
+    "preprocess_data": "`PreProcessData`",
+    "vibrational_data": "`VibrationalData`",
+    "pwbase": "`PwBaseWorkChain`",
+    "dielwc": "`DielectricWorkChain`",
 }
 
 html_theme_options = {
@@ -95,7 +95,7 @@ nb_execution_mode = "cache"
 # )
 
 # Execution timeout (seconds)
-nb_execution_timeout = 1200
+nb_execution_timeout = 1800
 
 # Use temporary folder for the execution current working directory
 # nb_execution_in_temp = False
