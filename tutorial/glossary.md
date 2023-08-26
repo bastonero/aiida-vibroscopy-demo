@@ -8,7 +8,7 @@ PhononWorkChain
 DielectricWorkChain
     It calculates the dielectirc, Born effective charges, Raman and non-linear-optical susceptibility tensors.
 
-HamronicWorkChain
+HarmonicWorkChain
     It utilizes the {term}`PhononWorkChain` and the {term}`DielectricWorkChain` for computing harmonic phonons, including (on request) non-analytical correction.
 
 IRamanWorkChain

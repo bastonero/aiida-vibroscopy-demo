@@ -16,10 +16,11 @@ It is intended to:
 :numbered:
 
 1_what_is_vibroscopy
-2_polar
+2_dielectric
 3_iraman
-4_iraman_functionals
-5_next_steps
+4_polar
+5_iraman_functionals
+6_next_steps
 glossary
 ```
 
