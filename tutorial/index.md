@@ -4,6 +4,8 @@ sd_hide_title: true
 
 # Vibroscopy Demonstration
 
+![sponsor](_static/demo-intro.png)
+
 This tutorial is a demonstration of the AiiDA-Vibroscopy package.
 It is intended to:
 
@@ -26,13 +28,13 @@ glossary
 
 ## Interacting with the tutorial
 
-The tutorial is divided into a number of sections, most of which are written Jupyter notebook, that can be run within the [Conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) provided in {download}`environment.yaml <../environment.yml>`.
+The tutorial is divided into a number of sections, most of which are written Jupyter notebook, that can be run within the [Conda environment](https://mybinder.org/v2/gh/bastonero/aiida-vibroscopy-demo/HEAD) provided in {download}`environment.yaml <../environment.yml>`.
 
 ### Using Binder
 
 The easiest way to run the notebooks is to click on the Binder badge below, which will launch a Binder instance with the environment pre-installed.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chrisjsewell/aiida-qe-demo/main?labpath=tutorial)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bastonero/aiida-vibroscopy-demo/HEAD)
 
 Alternatively, any page with a 🚀 icon can be launched in Binder by clicking on it.
 

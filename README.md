@@ -1,6 +1,6 @@
 # aiida-vibroscopy demo
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chrisjsewell/aiida-qe-demo/main?labpath=tutorial)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bastonero/aiida-vibroscopy-demo/HEAD)
 
 A demonstration tutorial on using aiida-vibroscopy (with the style adapted from the [aiida-qe-demo](https://aiida-qe-demo.readthedocs.io/en/latest/)).
 
