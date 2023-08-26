@@ -10,6 +10,7 @@ build:
   tools:
     python: mambaforge-4.10
   commands:
+    - conda init bash
     - conda activate aiida-vibroscopy-demo
     - pip install aiida-vibroscopy[docs]
     - pip install git+https://github.com/executablebooks/MyST-NB.git
