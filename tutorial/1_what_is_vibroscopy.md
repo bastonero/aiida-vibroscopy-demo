@@ -4,11 +4,11 @@ AiiDA-Vibroscopy is a collection of high-level workflows for the automated compu
 
 All-functionals IR and Raman spectra
 : Vibroscopy provides you with an highly optimized workflow for the computation of vibrational spectra, allowing for the use of any functional.
-: ![All-functional spectra](_static/3_spectra_functionals_comparison.png){height=150px align=center}
+: ![All-functional spectra](_static/3_spectra_functionals_comparison.png){height=300px align=center}
 
 Highly optimized, automated workflows
 : The provided workflows are standardized to replace repetitive scripting, and are optimized to maximally minimize the walltime consumption.
-: ![Workflows](_static/2_workflow_scheme.png){height=150px align=center}
+: ![Workflows](_static/2_workflow_scheme.png){height=300px align=center}
 
 Data management
 : All the information is efficiently stored in a unique data type, the `VibrationalData`, so that all the information are gathered together simplifying its access.
