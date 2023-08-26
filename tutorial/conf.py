@@ -84,7 +84,7 @@ html_theme_options = {
 # nb_kernel_rgx_aliases = {}
 
 # Execution mode for notebooks
-nb_execution_mode = "cache"
+nb_execution_mode = "'off'"
 
 # Path to folder for caching notebooks (default: <outdir>)
 # nb_execution_cache_path = ''
